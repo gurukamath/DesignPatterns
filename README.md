@@ -1,0 +1,1 @@
+Notes and code on the various common software design patterns
