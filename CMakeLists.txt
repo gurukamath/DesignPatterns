@@ -2,13 +2,13 @@ cmake_minimum_required(VERSION 3.23.0)
 
 project(design_principles)
 
-set(PRINCIPLE "solid/single_responsibility" CACHE STRING "Enter the principle to be run")
+set(PRINCIPLE "solid/single_responsibility.cpp" CACHE STRING "Enter the principle to be run")
 
 message(${PRINCIPLE})
 
 add_executable(
     ${PROJECT_NAME}
-    ${PRINCIPLE}.cpp
+    ${PRINCIPLE}
     )
 
 set(Boost_USE_STATIC_LIBS OFF) 
